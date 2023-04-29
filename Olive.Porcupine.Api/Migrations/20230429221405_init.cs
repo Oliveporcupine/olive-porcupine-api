@@ -54,8 +54,8 @@ namespace Olive.Porcupine.Api.Migrations
                 columns: new[] { "Id", "Brand", "Description", "Name", "Price" },
                 values: new object[,]
                 {
-                    { 1, "Nike", "Ohio State Shirt.", "Shirt", 29.99m },
-                    { 2, "Nike", "Ohio State Shorts.", "Shorts", 44.99m }
+                    { 1, "Nike", "Ohio State Shirt", "Shirt", 29.99m },
+                    { 2, "Nike", "Ohio State Shorts", "Shorts", 44.99m }
                 });
 
             migrationBuilder.CreateIndex(

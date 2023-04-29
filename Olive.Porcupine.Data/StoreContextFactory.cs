@@ -1,8 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using Olive.Porcupine.Data;
 
-namespace Olive.Porcupine.Beat.Data;
+namespace Olive.Porcupine.Data;
 
 public class StoreContextFactory : IDesignTimeDbContextFactory<StoreContext>
 {

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Olive.Porcupine.Domain\Olive.Porcupine.Domain.csproj" />
+    <ProjectReference Include="..\Olive.porcupine.domain\olive.porcupine.domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

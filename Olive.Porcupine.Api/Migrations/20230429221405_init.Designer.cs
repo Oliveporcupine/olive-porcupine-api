@@ -11,14 +11,14 @@ using Olive.Porcupine.Data;
 namespace Olive.Porcupine.Api.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20230405210638_init")]
+    [Migration("20230429221405_init")]
     partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "7.0.4");
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.5");
 
             modelBuilder.Entity("Olive.Porcupine.Domain.Catalog.Item", b =>
                 {
@@ -50,7 +50,7 @@ namespace Olive.Porcupine.Api.Migrations
                         {
                             Id = 1,
                             Brand = "Nike",
-                            Description = "Ohio State Shirt.",
+                            Description = "Ohio State Shirt",
                             Name = "Shirt",
                             Price = 29.99m
                         },
@@ -58,7 +58,7 @@ namespace Olive.Porcupine.Api.Migrations
                         {
                             Id = 2,
                             Brand = "Nike",
-                            Description = "Ohio State Shorts.",
+                            Description = "Ohio State Shorts",
                             Name = "Shorts",
                             Price = 44.99m
                         });
