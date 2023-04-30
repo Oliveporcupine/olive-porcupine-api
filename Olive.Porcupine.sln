@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olive.Porcupine.Domain", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olive.Porcupine.Data", "Olive.Porcupine.Data\Olive.Porcupine.Data.csproj", "{12874E56-7F93-4738-9100-2E1F5865DE3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C66D1CFB-6188-4827-86FF-1216B6BF4777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olive.Porcupine.Domain.Tests", "tests\Olive.Porcupine.Domain.Tests\Olive.Porcupine.Domain.Tests.csproj", "{D0ECE70C-1330-4252-8B6C-06953A69F6FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{12874E56-7F93-4738-9100-2E1F5865DE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12874E56-7F93-4738-9100-2E1F5865DE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12874E56-7F93-4738-9100-2E1F5865DE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0ECE70C-1330-4252-8B6C-06953A69F6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0ECE70C-1330-4252-8B6C-06953A69F6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0ECE70C-1330-4252-8B6C-06953A69F6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0ECE70C-1330-4252-8B6C-06953A69F6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0ECE70C-1330-4252-8B6C-06953A69F6FC} = {C66D1CFB-6188-4827-86FF-1216B6BF4777}
 	EndGlobalSection
 EndGlobal
