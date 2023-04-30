@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Olive.Porcupine.Domain.Catalog;
 using Olive.Porcupine.Data;
 using Microsoft.EntityFrameworkCore;
+using Olive.Porcupine.Api.Security;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Olive.Porcupine.Api.Controllers
 {
@@ -79,6 +81,7 @@ namespace Olive.Porcupine.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult Delete(int id)
         {
             var item = _db.Items.Find(id);
